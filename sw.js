@@ -1,10 +1,11 @@
 // Service Worker para PWA
-const CACHE_NAME = 'magic-chat-v1';
+const CACHE_NAME = 'magic-chat-v2';
 const urlsToCache = [
-  '/',
-  '/static/js/bundle.js',
-  '/static/css/main.css',
-  '/manifest.json'
+  '/magic/',
+  '/magic/index.html',
+  '/magic/manifest.json',
+  '/magic/magic-icon-192.png',
+  '/magic/magic-icon-512.png'
 ];
 
 self.addEventListener('install', (event) => {
